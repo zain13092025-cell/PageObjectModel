@@ -22,6 +22,8 @@ public class PhoneBasw
 		w.manage().window().maximize();
 		w.manage().deleteAllCookies();
 		w.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		System.out.println("This is a new change in zain-project");
 	}
 	
 	@AfterTest
