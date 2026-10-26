@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Pages.greenkartsite">
+      <class name="Testpackage.loginsaucedemo">
         <methods>
-          <include name="terminate"/>
+          <include name="opensite"/>
           <include name="launch"/>
-          <include name="dashboard"/>
+          <include name="terminate"/>
         </methods>
-      </class> <!-- Pages.greenkartsite -->
+      </class> <!-- Testpackage.loginsaucedemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

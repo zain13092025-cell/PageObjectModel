@@ -1,93 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-30T14:13:35 IST" name="Default suite" finished-at="2026-08-30T14:19:13 IST" duration-ms="338585">
+  <suite started-at="2026-10-25T17:34:23 IST" name="Default suite" finished-at="2026-10-25T17:35:18 IST" duration-ms="55483">
     <groups>
     </groups>
-    <test started-at="2026-08-30T14:13:35 IST" name="Default test" finished-at="2026-08-30T14:19:13 IST" duration-ms="338585">
-      <class name="Pages.greenkartsite">
-        <test-method is-config="true" signature="launch()[pri:0, instance:Pages.greenkartsite@1d9b7cce]" started-at="2026-08-30T14:13:35 IST" name="launch" finished-at="2026-08-30T14:17:40 IST" duration-ms="244882" status="PASS">
+    <test started-at="2026-10-25T17:34:23 IST" name="Default test" finished-at="2026-10-25T17:35:18 IST" duration-ms="55483">
+      <class name="Testpackage.ProtoCommerce">
+        <test-method is-config="true" signature="launch()[pri:0, instance:Testpackage.ProtoCommerce@7fa98a66]" started-at="2026-10-25T17:34:23 IST" name="launch" finished-at="2026-10-25T17:34:34 IST" duration-ms="11406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="dashboard()[pri:0, instance:Pages.greenkartsite@1d9b7cce]" started-at="2026-08-30T14:17:40 IST" name="dashboard" finished-at="2026-08-30T14:19:12 IST" duration-ms="92850" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.2', java.version: '25.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [738eed5e791da1054e2a745bca2bdb02, clickElement {id=f.F6F2E4F4D75A0F7B33BEBE3528E00DD1.d.0E9BBF99E3FF2CD4D5DF1A2F539BA56C.e.85}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /var/folders/r_/2dz1qn456_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49166}, goog:processID: 1074, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49166/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (738eed5e791da1054e2a745bca2bdb02)] -> xpath: //button[text()='ADD TO CART']]
-Session ID: 738eed5e791da1054e2a745bca2bdb02]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.2', java.version: '25.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [738eed5e791da1054e2a745bca2bdb02, clickElement {id=f.F6F2E4F4D75A0F7B33BEBE3528E00DD1.d.0E9BBF99E3FF2CD4D5DF1A2F539BA56C.e.85}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /var/folders/r_/2dz1qn456_5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49166}, goog:processID: 1074, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49166/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (738eed5e791da1054e2a745bca2bdb02)] -> xpath: //button[text()='ADD TO CART']]
-Session ID: 738eed5e791da1054e2a745bca2bdb02
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at Pages.greenkartaddtocart.addtocart(greenkartaddtocart.java:52)
-at Pages.greenkartsite.dashboard(greenkartsite.java:17)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="opensite()[pri:0, instance:Testpackage.ProtoCommerce@7fa98a66]" started-at="2026-10-25T17:34:34 IST" name="opensite" finished-at="2026-10-25T17:35:18 IST" duration-ms="43672" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dashboard -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:Pages.greenkartsite@1d9b7cce]" started-at="2026-08-30T14:19:12 IST" name="terminate" finished-at="2026-08-30T14:19:13 IST" duration-ms="833" status="PASS">
+        </test-method> <!-- opensite -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Testpackage.ProtoCommerce@7fa98a66]" started-at="2026-10-25T17:35:18 IST" name="terminate" finished-at="2026-10-25T17:35:18 IST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-      </class> <!-- Pages.greenkartsite -->
+      </class> <!-- Testpackage.ProtoCommerce -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

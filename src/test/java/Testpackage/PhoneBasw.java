@@ -23,12 +23,13 @@ public class PhoneBasw
 		w.manage().deleteAllCookies();
 		w.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		System.out.println("This is a new change in zain-project");
+//		System.out.println("This is a new change in zain-project");
 	}
 	
 	@AfterTest
 	public void terminate()
 	{
+		w.close();
 		w.quit();
 	}
 	
