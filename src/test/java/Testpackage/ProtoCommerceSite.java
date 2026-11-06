@@ -1,7 +1,6 @@
 package Testpackage;
 
 	import java.io.File;
-	import java.io.IOException;
 	import java.time.Duration;
 	import java.util.Scanner;
 
@@ -17,16 +16,7 @@ package Testpackage;
 	import org.openqa.selenium.support.ui.ExpectedConditions;
 	import org.openqa.selenium.support.ui.Select;
 	import org.openqa.selenium.support.ui.WebDriverWait;
-	import org.testng.annotations.AfterTest;
-	import org.testng.annotations.BeforeTest;
-	import org.testng.annotations.Test;
-
 	import com.google.common.io.Files;
-
-	import Pages.ProtoChkout;
-	import Pages.ProtoRegisterpg;
-	import Pages.ProtoShop;
-
 	
 	public class ProtoCommerceSite
 	{
@@ -67,7 +57,7 @@ package Testpackage;
 			
 		}
 		
-		public void opensite() throws Exception
+		public void opensite()
 		{
 			w.get("https://rahulshettyacademy.com/angularpractice/");
 			
@@ -141,11 +131,11 @@ package Testpackage;
 		
 		public static void main(String[] args) throws Exception
 		{
-			ProtoCommerce p = new ProtoCommerce();
+			ProtoCommerceSite p = new ProtoCommerceSite();
 			p.launch();
 			p.opensite();
 			p.screenshot();
-			p.shop();s
+			p.shop();
 			p.terminate();
 		}
 		
@@ -155,4 +145,4 @@ package Testpackage;
 	}
 
 
-}
+

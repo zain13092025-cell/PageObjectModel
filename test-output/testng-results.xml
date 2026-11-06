@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-25T17:34:23 IST" name="Default suite" finished-at="2026-10-25T17:35:18 IST" duration-ms="55483">
+  <suite started-at="2026-11-06T18:50:04 IST" name="Default suite" finished-at="2026-11-06T18:50:43 IST" duration-ms="39144">
     <groups>
     </groups>
-    <test started-at="2026-10-25T17:34:23 IST" name="Default test" finished-at="2026-10-25T17:35:18 IST" duration-ms="55483">
-      <class name="Testpackage.ProtoCommerce">
-        <test-method is-config="true" signature="launch()[pri:0, instance:Testpackage.ProtoCommerce@7fa98a66]" started-at="2026-10-25T17:34:23 IST" name="launch" finished-at="2026-10-25T17:34:34 IST" duration-ms="11406" status="PASS">
+    <test started-at="2026-11-06T18:50:04 IST" name="Default test" finished-at="2026-11-06T18:50:43 IST" duration-ms="39144">
+      <class name="Testpackage.SwagLabs">
+        <test-method is-config="true" signature="launch()[pri:0, instance:Testpackage.SwagLabs@7fa98a66]" started-at="2026-11-06T18:50:04 IST" name="launch" finished-at="2026-11-06T18:50:14 IST" duration-ms="9243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="opensite()[pri:0, instance:Testpackage.ProtoCommerce@7fa98a66]" started-at="2026-10-25T17:34:34 IST" name="opensite" finished-at="2026-10-25T17:35:18 IST" duration-ms="43672" status="PASS">
+        <test-method signature="loginpage()[pri:0, instance:Testpackage.SwagLabs@7fa98a66]" started-at="2026-11-06T18:50:14 IST" name="loginpage" finished-at="2026-11-06T18:50:37 IST" duration-ms="23389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- opensite -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:Testpackage.ProtoCommerce@7fa98a66]" started-at="2026-10-25T17:35:18 IST" name="terminate" finished-at="2026-10-25T17:35:18 IST" duration-ms="388" status="PASS">
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Testpackage.SwagLabs@7fa98a66]" started-at="2026-11-06T18:50:37 IST" name="terminate" finished-at="2026-11-06T18:50:43 IST" duration-ms="6497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-      </class> <!-- Testpackage.ProtoCommerce -->
+      </class> <!-- Testpackage.SwagLabs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
